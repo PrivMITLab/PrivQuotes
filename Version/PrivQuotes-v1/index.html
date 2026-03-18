@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="PrivQuotes – JSON-Driven Privacy-First Quotes Engine by PrivMITLab" />
+    <meta name="theme-color" content="#0a0a0a" />
+
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" href="icons/icon-192.png" />
+
+    <!-- Fonts (self-hosted fallback via system fonts if offline) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet"
+        media="print" onload="this.media='all'" />
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+            rel="stylesheet" />
+    </noscript>
+
+    <title>PrivQuotes – PrivMITLab</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <!-- ════════════════════════════════════
+       APP SHELL
+  ════════════════════════════════════ -->
+    <div id="app" class="app-shell">
+
+        <!-- ── TOP BAR ── -->
+        <header class="topbar" role="banner">
+            <div class="topbar__brand">
+                <span class="topbar__logo" aria-hidden="true">🔐</span>
+                <div class="topbar__titles">
+                    <h1 class="topbar__name">PrivQuotes</h1>
+                    <p class="topbar__tagline">Feel the Words. Own the Experience.</p>
+                </div>
+            </div>
+
+            <div class="topbar__controls">
+                <!-- Search -->
+                <div class="search-wrap" role="search">
+                    <span class="search-icon" aria-hidden="true">🔍</span>
+                    <input type="search" id="searchInput" class="search-input"
+                        placeholder="Search quotes, tags, authors…" aria-label="Search quotes" autocomplete="off"
+                        spellcheck="false" />
+                    <button class="search-clear" id="searchClear" aria-label="Clear search" hidden>✕</button>
+                </div>
+
+                <!-- Filters -->
+                <div class="filter-group" role="group" aria-label="Filter controls">
+                    <!-- Language Filter -->
+                    <select id="languageFilter" class="filter-select" aria-label="Filter by language">
+                        <option value="all">🌐 All Languages</option>
+                        <option value="english">🇬🇧 English</option>
+                        <option value="hindi">🇮🇳 Hindi</option>
+                        <option value="hinglish">🔀 Hinglish</option>
+                    </select>
+
+                    <!-- Category Filter -->
+                    <select id="categoryFilter" class="filter-select" aria-label="Filter by category">
+                        <option value="all">📂 All Types</option>
+                        <option value="sad">😢 Sad</option>
+                        <option value="love">❤️ Love</option>
+                        <option value="motivational">💪 Motivational</option>
+                        <option value="reality">🧠 Reality</option>
+                        <option value="life">🌿 Life</option>
+                    </select>
+
+                    <!-- Theme Toggle -->
+                    <button id="themeToggle" class="btn btn--icon" aria-label="Toggle light/dark mode"
+                        title="Toggle theme">
+                        <span id="themeIcon">☀️</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- ── STATS BAR ── -->
+        <div class="stats-bar" aria-live="polite" aria-atomic="true">
+            <span id="quoteCount" class="stats-count"></span>
+            <span class="stats-brand">by PrivMITLab · Open Source · Privacy First</span>
+        </div>
+
+        <!-- ── GALLERY ── -->
+        <main id="gallery" class="gallery" role="main" aria-label="Quotes gallery"></main>
+
+        <!-- ── EMPTY STATE ── -->
+        <div id="emptyState" class="empty-state" hidden role="status">
+            <div class="empty-state__icon">🔍</div>
+            <h2 class="empty-state__title">No quotes found</h2>
+            <p class="empty-state__desc">Try different search terms or reset the filters.</p>
+            <button class="btn btn--primary" id="resetFilters">Reset Filters</button>
+        </div>
+
+        <!-- ── LOADING SKELETON ── -->
+        <div id="loadingState" class="loading-state" aria-label="Loading quotes" role="status">
+            <div class="skeleton-grid">
+                <div class="skeleton-card" aria-hidden="true"></div>
+                <div class="skeleton-card" aria-hidden="true"></div>
+                <div class="skeleton-card" aria-hidden="true"></div>
+                <div class="skeleton-card" aria-hidden="true"></div>
+                <div class="skeleton-card" aria-hidden="true"></div>
+                <div class="skeleton-card" aria-hidden="true"></div>
+            </div>
+        </div>
+
+        <!-- ── MODAL (FULLSCREEN QUOTE VIEW) ── -->
+        <div id="quoteModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalQuoteText" hidden>
+            <div class="modal__overlay" id="modalOverlay"></div>
+            <div class="modal__container">
+
+                <!-- Close Button -->
+                <button class="modal__close" id="modalClose" aria-label="Close quote view">✕</button>
+
+                <!-- Nav Arrows -->
+                <button class="modal__nav modal__nav--prev" id="modalPrev" aria-label="Previous quote">‹</button>
+                <button class="modal__nav modal__nav--next" id="modalNext" aria-label="Next quote">›</button>
+
+                <!-- Quote Card (dynamic) -->
+                <div class="modal__card" id="modalCard">
+                    <div class="modal__quote-wrap" id="modalQuoteWrap">
+                        <p class="modal__quote-text" id="modalQuoteText"></p>
+                    </div>
+
+                    <div class="modal__meta" id="modalMeta">
+                        <div class="modal__meta-tags" id="modalTags"></div>
+                        <div class="modal__meta-info" id="modalInfo"></div>
+                    </div>
+                </div>
+
+                <!-- Action Bar -->
+                <div class="modal__actions" id="modalActions">
+                    <button class="btn btn--action" id="copyBtn" aria-label="Copy quote text">
+                        <span class="btn__icon">📋</span>
+                        <span class="btn__label">Copy</span>
+                    </button>
+                    <button class="btn btn--action" id="downloadBtn" aria-label="Download quote as image">
+                        <span class="btn__icon">⬇️</span>
+                        <span class="btn__label">Download</span>
+                    </button>
+                    <button class="btn btn--action" id="shareBtn" aria-label="Share quote">
+                        <span class="btn__icon">🔗</span>
+                        <span class="btn__label">Share</span>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ── TOAST NOTIFICATION ── -->
+        <div id="toast" class="toast" role="alert" aria-live="assertive" aria-atomic="true"></div>
+
+        <!-- ── FOOTER ── -->
+        <footer class="footer" role="contentinfo">
+            <p>
+                <strong>PrivMITLab</strong> · PrivQuotes v1.0.0 · Open Source ·
+                <a href="https://github.com/privmitlab/privquotes" target="_blank" rel="noopener noreferrer"
+                    class="footer__link">GitHub</a>
+            </p>
+            <p class="footer__sub">No tracking. No analytics. No servers. 100% yours.</p>
+        </footer>
+
+    </div><!-- /#app -->
+
+    <!-- ── SCRIPTS ── -->
+    <!--
+    html2canvas loaded from CDN with local fallback handling.
+    For true offline-first, download and place in /libs/html2canvas.min.js
+  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"
+        integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGE2rbL3Z5l8BBKOm4YjAlmC/h+N/t3w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+
+    <!-- App Modules -->
+    <script type="module" src="app.js"></script>
+
+</body>
+
+</html>

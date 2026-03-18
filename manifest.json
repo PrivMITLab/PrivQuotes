@@ -1,0 +1,30 @@
+{
+    "name": "PrivQuotes – PrivMITLab",
+    "short_name": "PrivQuotes",
+    "description": "JSON-Driven Privacy-First Quotes Engine. Feel the Words. Own the Experience.",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "orientation": "any",
+    "background_color": "#0a0a0f",
+    "theme_color": "#0a0a0f",
+    "lang": "hi",
+    "dir": "ltr",
+    "categories": [
+        "lifestyle",
+        "education"
+    ],
+    "icons": [
+        {
+            "src": "icons/icon.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "icons/icon.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable any"
+        }
+    ]
+}

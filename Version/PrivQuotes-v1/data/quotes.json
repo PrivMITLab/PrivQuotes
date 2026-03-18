@@ -1,0 +1,382 @@
+{
+  "meta": {
+    "appName": "PrivQuotes",
+    "version": "1.0.0",
+    "brand": "PrivMITLab",
+    "tagline": "Feel the Words. Own the Experience.",
+    "defaultTheme": "dark",
+    "defaultLanguage": "all"
+  },
+  "quotes": [
+    {
+      "id": "001",
+      "type": "sad",
+      "language": "hinglish",
+      "text": "Ab hum kisi ko *samjhane* ki koshish nahi karte 😔, kyunki log wahi *samajhte* hain jo wo samajhna chahte hain.",
+      "style": {
+        "background": {
+          "type": "gradient",
+          "colors": ["#0f2027", "#203a43", "#2c5364"]
+        },
+        "textColor": "#ffffff",
+        "highlightColor": "#00ffd5",
+        "font": "Poppins",
+        "emojiSupport": true,
+        "highlightStyle": "glow"
+      },
+      "layout": {
+        "align": "center",
+        "padding": 24,
+        "borderRadius": 16,
+        "shadow": true,
+        "fontSize": {
+          "mobile": 16,
+          "tablet": 20,
+          "desktop": 28
+        }
+      },
+      "animation": {
+        "entry": "fade-in",
+        "hover": "scale"
+      },
+      "meta": {
+        "tags": ["sad", "life", "reality"],
+        "author": "anonymous",
+        "date": "2026-03-18"
+      }
+    },
+    {
+      "id": "002",
+      "type": "motivational",
+      "language": "english",
+      "text": "Your *privacy* is not a crime — it is your *fundamental right*. Guard it. *Own it*. 🔐",
+      "style": {
+        "background": {
+          "type": "gradient",
+          "colors": ["#134e5e", "#71b280"]
+        },
+        "textColor": "#f0fff4",
+        "highlightColor": "#f9ca24",
+        "font": "Poppins",
+        "emojiSupport": true,
+        "highlightStyle": "underline"
+      },
+      "layout": {
+        "align": "center",
+        "padding": 28,
+        "borderRadius": 20,
+        "shadow": true,
+        "fontSize": {
+          "mobile": 15,
+          "tablet": 19,
+          "desktop": 26
+        }
+      },
+      "animation": {
+        "entry": "slide-up",
+        "hover": "scale"
+      },
+      "meta": {
+        "tags": ["privacy", "rights", "motivation"],
+        "author": "PrivMITLab",
+        "date": "2026-03-18"
+      }
+    },
+    {
+      "id": "003",
+      "type": "love",
+      "language": "hindi",
+      "text": "Mohabbat woh *roshan sitara* hai 🌟 jo aankhon mein *chamakta* hai, par hathon se *chhoota* nahi jaata.",
+      "style": {
+        "background": {
+          "type": "gradient",
+          "colors": ["#4a0000", "#8b0000", "#c0392b"]
+        },
+        "textColor": "#ffe4e1",
+        "highlightColor": "#ff6b8a",
+        "font": "Poppins",
+        "emojiSupport": true,
+        "highlightStyle": "glow"
+      },
+      "layout": {
+        "align": "center",
+        "padding": 26,
+        "borderRadius": 18,
+        "shadow": true,
+        "fontSize": {
+          "mobile": 16,
+          "tablet": 20,
+          "desktop": 27
+        }
+      },
+      "animation": {
+        "entry": "zoom-in",
+        "hover": "scale"
+      },
+      "meta": {
+        "tags": ["love", "poetry", "romantic"],
+        "author": "anonymous",
+        "date": "2026-03-18"
+      }
+    },
+    {
+      "id": "004",
+      "type": "motivational",
+      "language": "hinglish",
+      "text": "*Haar* mat maano — *toota* hua insaan bhi *jeeta* hai jab tak *saansa* hai 💪.",
+      "style": {
+        "background": {
+          "type": "gradient",
+          "colors": ["#1a1a2e", "#16213e", "#0f3460"]
+        },
+        "textColor": "#e0e0ff",
+        "highlightColor": "#e94560",
+        "font": "Poppins",
+        "emojiSupport": true,
+        "highlightStyle": "bold-color"
+      },
+      "layout": {
+        "align": "center",
+        "padding": 24,
+        "borderRadius": 16,
+        "shadow": true,
+        "fontSize": {
+          "mobile": 16,
+          "tablet": 20,
+          "desktop": 28
+        }
+      },
+      "animation": {
+        "entry": "fade-in",
+        "hover": "scale"
+      },
+      "meta": {
+        "tags": ["motivational", "strength", "life"],
+        "author": "PrivMITLab",
+        "date": "2026-03-18"
+      }
+    },
+    {
+      "id": "005",
+      "type": "reality",
+      "language": "english",
+      "text": "In a world of *surveillance*, silence is *rebellion*. In a world of *noise*, privacy is *power*. 🧠",
+      "style": {
+        "background": {
+          "type": "gradient",
+          "colors": ["#0d0d0d", "#1a1a1a", "#2d2d2d"]
+        },
+        "textColor": "#cccccc",
+        "highlightColor": "#00ff99",
+        "font": "Poppins",
+        "emojiSupport": true,
+        "highlightStyle": "glow"
+      },
+      "layout": {
+        "align": "center",
+        "padding": 32,
+        "borderRadius": 12,
+        "shadow": true,
+        "fontSize": {
+          "mobile": 14,
+          "tablet": 18,
+          "desktop": 24
+        }
+      },
+      "animation": {
+        "entry": "slide-up",
+        "hover": "scale"
+      },
+      "meta": {
+        "tags": ["privacy", "reality", "digital", "freedom"],
+        "author": "PrivMITLab",
+        "date": "2026-03-18"
+      }
+    },
+    {
+      "id": "006",
+      "type": "sad",
+      "language": "hindi",
+      "text": "Kuch *zakhm* itne gehre hote hain 💔 ki waqt bhi unhe *bharne* se dar jaata hai.",
+      "style": {
+        "background": {
+          "type": "gradient",
+          "colors": ["#2c2c54", "#40407a", "#706fd3"]
+        },
+        "textColor": "#f5f6fa",
+        "highlightColor": "#fd9644",
+        "font": "Poppins",
+        "emojiSupport": true,
+        "highlightStyle": "underline"
+      },
+      "layout": {
+        "align": "center",
+        "padding": 24,
+        "borderRadius": 20,
+        "shadow": true,
+        "fontSize": {
+          "mobile": 16,
+          "tablet": 20,
+          "desktop": 28
+        }
+      },
+      "animation": {
+        "entry": "fade-in",
+        "hover": "scale"
+      },
+      "meta": {
+        "tags": ["sad", "pain", "healing"],
+        "author": "anonymous",
+        "date": "2026-03-18"
+      }
+    },
+    {
+      "id": "007",
+      "type": "life",
+      "language": "english",
+      "text": "You don't need *permission* to protect your *data*. You need *awareness* and *action*. 🛡️",
+      "style": {
+        "background": {
+          "type": "gradient",
+          "colors": ["#005c97", "#363795"]
+        },
+        "textColor": "#ffffff",
+        "highlightColor": "#ffd32a",
+        "font": "Poppins",
+        "emojiSupport": true,
+        "highlightStyle": "bold-color"
+      },
+      "layout": {
+        "align": "center",
+        "padding": 28,
+        "borderRadius": 16,
+        "shadow": true,
+        "fontSize": {
+          "mobile": 15,
+          "tablet": 19,
+          "desktop": 25
+        }
+      },
+      "animation": {
+        "entry": "zoom-in",
+        "hover": "scale"
+      },
+      "meta": {
+        "tags": ["privacy", "life", "awareness"],
+        "author": "PrivMITLab",
+        "date": "2026-03-18"
+      }
+    },
+    {
+      "id": "008",
+      "type": "love",
+      "language": "hinglish",
+      "text": "Teri *yaad* aati hai jab *raat* gehra hoti hai 🌙, aur neend *bhaag* jaati hai aankhon se.",
+      "style": {
+        "background": {
+          "type": "gradient",
+          "colors": ["#1e3c72", "#2a5298"]
+        },
+        "textColor": "#e8f4fd",
+        "highlightColor": "#f8d7da",
+        "font": "Poppins",
+        "emojiSupport": true,
+        "highlightStyle": "glow"
+      },
+      "layout": {
+        "align": "center",
+        "padding": 24,
+        "borderRadius": 18,
+        "shadow": true,
+        "fontSize": {
+          "mobile": 16,
+          "tablet": 20,
+          "desktop": 27
+        }
+      },
+      "animation": {
+        "entry": "fade-in",
+        "hover": "scale"
+      },
+      "meta": {
+        "tags": ["love", "night", "longing"],
+        "author": "anonymous",
+        "date": "2026-03-18"
+      }
+    },
+    {
+      "id": "009",
+      "type": "reality",
+      "language": "hinglish",
+      "text": "Log *online* par jo dikhate hain, woh *asli* nahi hota 📱 — *filter* sirf photos par nahi, *zindagi* par bhi lagta hai.",
+      "style": {
+        "background": {
+          "type": "gradient",
+          "colors": ["#000000", "#434343"]
+        },
+        "textColor": "#f0f0f0",
+        "highlightColor": "#ff9f43",
+        "font": "Poppins",
+        "emojiSupport": true,
+        "highlightStyle": "underline"
+      },
+      "layout": {
+        "align": "center",
+        "padding": 24,
+        "borderRadius": 14,
+        "shadow": true,
+        "fontSize": {
+          "mobile": 15,
+          "tablet": 19,
+          "desktop": 25
+        }
+      },
+      "animation": {
+        "entry": "slide-up",
+        "hover": "scale"
+      },
+      "meta": {
+        "tags": ["reality", "social-media", "life"],
+        "author": "anonymous",
+        "date": "2026-03-18"
+      }
+    },
+    {
+      "id": "010",
+      "type": "motivational",
+      "language": "english",
+      "text": "*Open source* is not just code — it is *trust*, *transparency*, and the *future* we build together. 🌍",
+      "style": {
+        "background": {
+          "type": "gradient",
+          "colors": ["#11998e", "#38ef7d"]
+        },
+        "textColor": "#0a2e0a",
+        "highlightColor": "#ffffff",
+        "font": "Poppins",
+        "emojiSupport": true,
+        "highlightStyle": "bold-color"
+      },
+      "layout": {
+        "align": "center",
+        "padding": 28,
+        "borderRadius": 20,
+        "shadow": true,
+        "fontSize": {
+          "mobile": 15,
+          "tablet": 19,
+          "desktop": 26
+        }
+      },
+      "animation": {
+        "entry": "zoom-in",
+        "hover": "scale"
+      },
+      "meta": {
+        "tags": ["opensource", "tech", "community"],
+        "author": "PrivMITLab",
+        "date": "2026-03-18"
+      }
+    }
+  ]
+}
