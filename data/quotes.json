@@ -7090,6 +7090,365 @@
                 ],
                 "author": "PrivMITLab",
                 "date": "2026-03-22"
-            }}
+            }
+        },
+        {
+            "id": "161",
+            "type": "reality",
+            "language": "hindi",
+            "text": "मैंने *देखी* है *फलक*\n*बुरे* वक्त की\nये *जी जी* कहने *वाले*\n*तू तू* पर आ *जाते* हैं 🔐🕰️💯",
+            "style": {
+                "background": {
+                    "type": "gradient",
+                    "colors": [
+                        "#1a1a2e",
+                        "#16213e"
+                    ]
+                },
+                "textColor": "#eaf0f7",
+                "highlightColor": "#f39c12",
+                "font": "Hind",
+                "emojiSupport": true,
+                "highlightStyle": "bold-color"
+            },
+            "layout": {
+                "align": "center",
+                "padding": 26,
+                "borderRadius": 18,
+                "shadow": true,
+                "fontSize": {
+                    "mobile": 15,
+                    "tablet": 19,
+                    "desktop": 26
+                }
+            },
+            "animation": {
+                "entry": "fade-in",
+                "hover": "scale"
+            },
+            "meta": {
+                "tags": [
+                    "reality",
+                    "fake-people",
+                    "experience"
+                ],
+                "author": "anonymous",
+                "date": "2026-03-22"
+            }
+        },
+        {
+            "id": "162",
+            "type": "motivational",
+            "language": "hindi",
+            "text": "*गधों* को सफलता *मिलने* का *मतलब* ये नहीं\nकि उनमें *हुनर* हो *सकता* है,\nकोई *घोड़ा* रेस में *दौड़ा* ही ना हो।\n\n💯🔥😎",
+            "style": {
+                "background": {
+                    "type": "gradient",
+                    "colors": [
+                        "#0f0c29",
+                        "#302b63",
+                        "#24243e"
+                    ]
+                },
+                "textColor": "#f0e6ff",
+                "highlightColor": "#ffd700",
+                "font": "Poppins",
+                "emojiSupport": true,
+                "highlightStyle": "bold-color"
+            },
+            "layout": {
+                "align": "center",
+                "padding": 28,
+                "borderRadius": 20,
+                "shadow": true,
+                "fontSize": {
+                    "mobile": 15,
+                    "tablet": 19,
+                    "desktop": 26
+                }
+            },
+            "animation": {
+                "entry": "zoom-in",
+                "hover": "scale"
+            },
+            "meta": {
+                "tags": [
+                    "motivational",
+                    "talent",
+                    "success"
+                ],
+                "author": "anonymous",
+                "date": "2026-03-22"
+            }
+        },
+        {
+            "id": "163",
+            "type": "life",
+            "language": "hindi",
+            "text": "✏️ *पेन्सिल* के *सौ* गुनाह *माफ़* थे,\n*पेन* पर *जिम्मेदारियाँ* बहुत *थीं*। 🖊️💭",
+            "style": {
+                "background": {
+                    "type": "gradient",
+                    "colors": [
+                        "#2c3e50",
+                        "#4ca1af"
+                    ]
+                },
+                "textColor": "#ecf0f1",
+                "highlightColor": "#f1c40f",
+                "font": "Hind",
+                "emojiSupport": true,
+                "highlightStyle": "glow"
+            },
+            "layout": {
+                "align": "center",
+                "padding": 26,
+                "borderRadius": 16,
+                "shadow": true,
+                "fontSize": {
+                    "mobile": 16,
+                    "tablet": 20,
+                    "desktop": 27
+                }
+            },
+            "animation": {
+                "entry": "slide-up",
+                "hover": "scale"
+            },
+            "meta": {
+                "tags": [
+                    "life",
+                    "responsibility",
+                    "deep"
+                ],
+                "author": "anonymous",
+                "date": "2026-03-22"
+            }
+        },
+        {
+            "id": "164",
+            "type": "love",
+            "language": "hindi",
+            "text": "*हुस्न* कुछ देर का *तमाशा* है,\n*वफादारी* सारी *उम्र* का *किस्सा* है। ❤️✨",
+            "style": {
+                "background": {
+                    "type": "gradient",
+                    "colors": [
+                        "#c94b4b",
+                        "#4b134f"
+                    ]
+                },
+                "textColor": "#fff0ff",
+                "highlightColor": "#ffeaa7",
+                "font": "Poppins",
+                "emojiSupport": true,
+                "highlightStyle": "bold-color"
+            },
+            "layout": {
+                "align": "center",
+                "padding": 26,
+                "borderRadius": 20,
+                "shadow": true,
+                "fontSize": {
+                    "mobile": 16,
+                    "tablet": 20,
+                    "desktop": 27
+                }
+            },
+            "animation": {
+                "entry": "fade-in",
+                "hover": "scale"
+            },
+            "meta": {
+                "tags": [
+                    "love",
+                    "loyalty",
+                    "beauty"
+                ],
+                "author": "anonymous",
+                "date": "2026-03-22"
+            }
+        },
+        {
+            "id": "165",
+            "type": "emotional",
+            "language": "hindi",
+            "text": "हम *क्या* खर्च करेंगे *उन* पर,\n*जिन्होंने* अपनी सारी *उम्र* हम पर *लुटा* दी..!! ❤️\n\n*माँ-बाप* का कर्ज़ *पैसे* से नहीं,\n*प्यार* और *सम्मान* से चुकाया *जाता* है। 🙏",
+            "style": {
+                "background": {
+                    "type": "gradient",
+                    "colors": [
+                        "#232526",
+                        "#414345"
+                    ]
+                },
+                "textColor": "#fdfcdc",
+                "highlightColor": "#e74c3c",
+                "font": "Hind",
+                "emojiSupport": true,
+                "highlightStyle": "glow"
+            },
+            "layout": {
+                "align": "center",
+                "padding": 28,
+                "borderRadius": 18,
+                "shadow": true,
+                "fontSize": {
+                    "mobile": 15,
+                    "tablet": 19,
+                    "desktop": 25
+                }
+            },
+            "animation": {
+                "entry": "slide-up",
+                "hover": "scale"
+            },
+            "meta": {
+                "tags": [
+                    "parents",
+                    "emotional",
+                    "respect"
+                ],
+                "author": "anonymous",
+                "date": "2026-03-22"
+            }
+        },
+        {
+            "id": "166",
+            "type": "emotional",
+            "language": "hindi",
+            "text": "*दिखावे* की *जिंदगी* तो\nमैंने *उसी* दिन *छोड़* दी थी, 😌✨\n*जिस* दिन मेरे *बाप* ने कहा\n*बेटा* तेरे *पुराने* जूते मैं *पहन* लूं... 🥺👣💔",
+            "style": {
+                "background": {
+                    "type": "gradient",
+                    "colors": [
+                        "#0f2027",
+                        "#203a43",
+                        "#2c5364"
+                    ]
+                },
+                "textColor": "#e8f4fd",
+                "highlightColor": "#f9ca24",
+                "font": "Hind",
+                "emojiSupport": true,
+                "highlightStyle": "bold-color"
+            },
+            "layout": {
+                "align": "center",
+                "padding": 26,
+                "borderRadius": 18,
+                "shadow": true,
+                "fontSize": {
+                    "mobile": 15,
+                    "tablet": 19,
+                    "desktop": 25
+                }
+            },
+            "animation": {
+                "entry": "zoom-in",
+                "hover": "scale"
+            },
+            "meta": {
+                "tags": [
+                    "father",
+                    "emotional",
+                    "reality",
+                    "humble"
+                ],
+                "author": "anonymous",
+                "date": "2026-03-22"
+            }
+        },
+        {
+            "id": "167",
+            "type": "motivational",
+            "language": "hindi",
+            "text": "*जिंदगी* तो अपने *दम* पर *जी* जाती है,\n*दूसरों* के कंधों *पर* तो सिर्फ *जनाजे* उठाए *जाते* हैं।\n\n*वीर भगत सिंह* 🇮🇳🔥🙏",
+            "style": {
+                "background": {
+                    "type": "gradient",
+                    "colors": [
+                        "#1a1a2e",
+                        "#e94560"
+                    ]
+                },
+                "textColor": "#fff5f5",
+                "highlightColor": "#ffd700",
+                "font": "Poppins",
+                "emojiSupport": true,
+                "highlightStyle": "bold-color"
+            },
+            "layout": {
+                "align": "center",
+                "padding": 28,
+                "borderRadius": 20,
+                "shadow": true,
+                "fontSize": {
+                    "mobile": 15,
+                    "tablet": 19,
+                    "desktop": 26
+                }
+            },
+            "animation": {
+                "entry": "slide-up",
+                "hover": "scale"
+            },
+            "meta": {
+                "tags": [
+                    "motivational",
+                    "bhagat-singh",
+                    "self-reliance",
+                    "patriotic"
+                ],
+                "author": "Bhagat Singh",
+                "date": "2026-03-22"
+            }
+        },
+        {
+            "id": "168",
+            "type": "life",
+            "language": "hindi",
+            "text": "यह *रहस्य,*\n*आज* तक नहीं *खुला* कि,\nजो *नहीं* मिला,\n*वही* क्यों *चाहिए*....!!\n\n*Good Morning* 🌴🌊✨",
+            "style": {
+                "background": {
+                    "type": "gradient",
+                    "colors": [
+                        "#11998e",
+                        "#38ef7d"
+                    ]
+                },
+                "textColor": "#f0fff0",
+                "highlightColor": "#ffe066",
+                "font": "Montserrat",
+                "emojiSupport": true,
+                "highlightStyle": "glow"
+            },
+            "layout": {
+                "align": "center",
+                "padding": 26,
+                "borderRadius": 18,
+                "shadow": true,
+                "fontSize": {
+                    "mobile": 16,
+                    "tablet": 20,
+                    "desktop": 27
+                }
+            },
+            "animation": {
+                "entry": "fade-in",
+                "hover": "scale"
+            },
+            "meta": {
+                "tags": [
+                    "life",
+                    "mystery",
+                    "desire",
+                    "good-morning"
+                ],
+                "author": "anonymous",
+                "date": "2026-03-22"
+            }
+        }
+        
     ]
 }
