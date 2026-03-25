@@ -7449,6 +7449,492 @@
                 "date": "2026-03-22"
             }
         }
-        
+        , {
+            "id": "169",
+            "type": "sad",
+            "language": "hindi",
+            "text": "परखा *बहुत* गया *मुझे*… 😔💔\n*लेकिन* समझा *नहीं* गया… 🤐🥀",
+            "style": {
+                "background": {
+                    "type": "gradient",
+                    "colors": [
+                        "#0f0c29",
+                        "#302b63"
+                    ]
+                },
+                "textColor": "#e8e0f0",
+                "highlightColor": "#e74c3c",
+                "font": "Hind",
+                "emojiSupport": true,
+                "highlightStyle": "bold-color"
+            },
+            "layout": {
+                "align": "center",
+                "padding": 26,
+                "borderRadius": 18,
+                "shadow": true,
+                "fontSize": {
+                    "mobile": 16,
+                    "tablet": 20,
+                    "desktop": 27
+                }
+            },
+            "animation": {
+                "entry": "fade-in",
+                "hover": "scale"
+            },
+            "meta": {
+                "tags": [
+                    "sad",
+                    "misunderstood",
+                    "pain"
+                ],
+                "author": "anonymous",
+                "date": "2026-03-23"
+            }
+        },
+        {
+            "id": "170",
+            "type": "attitude",
+            "language": "hindi",
+            "text": "*काम* करते *वालों* की 💪🔥\nकदर *करो* 🙏✨\n*कान* भरने वालों की *नहीं* 😒",
+            "style": {
+                "background": {
+                    "type": "gradient",
+                    "colors": [
+                        "#1a1a2e",
+                        "#e94560"
+                    ]
+                },
+                "textColor": "#fff5f5",
+                "highlightColor": "#ffd700",
+                "font": "Poppins",
+                "emojiSupport": true,
+                "highlightStyle": "bold-color"
+            },
+            "layout": {
+                "align": "center",
+                "padding": 26,
+                "borderRadius": 20,
+                "shadow": true,
+                "fontSize": {
+                    "mobile": 15,
+                    "tablet": 19,
+                    "desktop": 26
+                }
+            },
+            "animation": {
+                "entry": "zoom-in",
+                "hover": "scale"
+            },
+            "meta": {
+                "tags": [
+                    "attitude",
+                    "reality",
+                    "hardwork"
+                ],
+                "author": "anonymous",
+                "date": "2026-03-23"
+            }
+        },
+        {
+            "id": "171",
+            "type": "life",
+            "language": "hindi",
+            "text": "जिंदगी *किस्मत* से चलती है *साहब* 🤲✨\nदिमाग से *चलती* तो *बिरबल* 🧠💡\n*बादशाह* होता 👑🔥",
+            "style": {
+                "background": {
+                    "type": "gradient",
+                    "colors": [
+                        "#232526",
+                        "#414345"
+                    ]
+                },
+                "textColor": "#fdfcdc",
+                "highlightColor": "#f9ca24",
+                "font": "Montserrat",
+                "emojiSupport": true,
+                "highlightStyle": "glow"
+            },
+            "layout": {
+                "align": "center",
+                "padding": 28,
+                "borderRadius": 18,
+                "shadow": true,
+                "fontSize": {
+                    "mobile": 15,
+                    "tablet": 19,
+                    "desktop": 26
+                }
+            },
+            "animation": {
+                "entry": "slide-up",
+                "hover": "scale"
+            },
+            "meta": {
+                "tags": [
+                    "life",
+                    "fate",
+                    "wisdom"
+                ],
+                "author": "anonymous",
+                "date": "2026-03-23"
+            }
+        },
+        {
+            "id": "172",
+            "type": "reality",
+            "language": "hindi",
+            "text": "*अच्छे* वक्त में *बताए* गए *राज* 🤫\nबुरे *वक्त* में *नुकसान* दे देते हैं… 💔",
+            "style": {
+                "background": {
+                    "type": "gradient",
+                    "colors": [
+                        "#141e30",
+                        "#243b55"
+                    ]
+                },
+                "textColor": "#e8f4fd",
+                "highlightColor": "#e74c3c",
+                "font": "Hind",
+                "emojiSupport": true,
+                "highlightStyle": "bold-color"
+            },
+            "layout": {
+                "align": "center",
+                "padding": 26,
+                "borderRadius": 16,
+                "shadow": true,
+                "fontSize": {
+                    "mobile": 16,
+                    "tablet": 20,
+                    "desktop": 27
+                }
+            },
+            "animation": {
+                "entry": "fade-in",
+                "hover": "scale"
+            },
+            "meta": {
+                "tags": [
+                    "reality",
+                    "secrets",
+                    "trust"
+                ],
+                "author": "anonymous",
+                "date": "2026-03-23"
+            }
+        },
+        {
+            "id": "173",
+            "type": "life",
+            "language": "hindi",
+            "text": "*मां* की *सेवा* करने से *भगवान* मिल सकते हैं,\n*पर* भगवान की *सेवा* से भी *मां* नहीं *मिल* सकती.. 💯🙏💖",
+            "style": {
+                "background": {
+                    "type": "gradient",
+                    "colors": [
+                        "#0f2027",
+                        "#203a43",
+                        "#2c5364"
+                    ]
+                },
+                "textColor": "#f0fff0",
+                "highlightColor": "#ffd32a",
+                "font": "Hind",
+                "emojiSupport": true,
+                "highlightStyle": "glow"
+            },
+            "layout": {
+                "align": "center",
+                "padding": 28,
+                "borderRadius": 18,
+                "shadow": true,
+                "fontSize": {
+                    "mobile": 15,
+                    "tablet": 19,
+                    "desktop": 25
+                }
+            },
+            "animation": {
+                "entry": "zoom-in",
+                "hover": "scale"
+            },
+            "meta": {
+                "tags": [
+                    "life",
+                    "mother",
+                    "god",
+                    "emotional"
+                ],
+                "author": "anonymous",
+                "date": "2026-03-23"
+            }
+        },
+        {
+            "id": "174",
+            "type": "motivational",
+            "language": "hindi",
+            "text": "*सुप्रभात 🌞*\n\nआज की प्रेरणा ✨\n*बदलाव* अगर हित में है,\nतो बेझिझक *बदल* जाना *चाहिए*। ✍️\n\n*Good Morning 🌼😊*",
+            "style": {
+                "background": {
+                    "type": "gradient",
+                    "colors": [
+                        "#11998e",
+                        "#38ef7d"
+                    ]
+                },
+                "textColor": "#f0fff0",
+                "highlightColor": "#ffe066",
+                "font": "Montserrat",
+                "emojiSupport": true,
+                "highlightStyle": "bold-color"
+            },
+            "layout": {
+                "align": "center",
+                "padding": 26,
+                "borderRadius": 20,
+                "shadow": true,
+                "fontSize": {
+                    "mobile": 15,
+                    "tablet": 19,
+                    "desktop": 25
+                }
+            },
+            "animation": {
+                "entry": "slide-up",
+                "hover": "scale"
+            },
+            "meta": {
+                "tags": [
+                    "motivational",
+                    "good-morning",
+                    "change"
+                ],
+                "author": "anonymous",
+                "date": "2026-03-23"
+            }
+        },
+        {
+            "id": "175",
+            "type": "sad",
+            "language": "hindi",
+            "text": "अपनी *वफ़ा* का इतना\n*दावा* ना किया *कर*,\n\n*मैंने* रूह को *जिस्म* से\n*बेवफाई* करते *देखा* है!! 💔🥀😔",
+            "style": {
+                "background": {
+                    "type": "gradient",
+                    "colors": [
+                        "#c94b4b",
+                        "#4b134f"
+                    ]
+                },
+                "textColor": "#fff0ff",
+                "highlightColor": "#ffeaa7",
+                "font": "Poppins",
+                "emojiSupport": true,
+                "highlightStyle": "glow"
+            },
+            "layout": {
+                "align": "center",
+                "padding": 26,
+                "borderRadius": 18,
+                "shadow": true,
+                "fontSize": {
+                    "mobile": 15,
+                    "tablet": 19,
+                    "desktop": 26
+                }
+            },
+            "animation": {
+                "entry": "fade-in",
+                "hover": "scale"
+            },
+            "meta": {
+                "tags": [
+                    "sad",
+                    "betrayal",
+                    "loyalty"
+                ],
+                "author": "anonymous",
+                "date": "2026-03-23"
+            }
+        },
+        {
+            "id": "176",
+            "type": "attitude",
+            "language": "hindi",
+            "text": "*नासमझ* ही मुझे *समझ* सकता है 🤍\nसमझदारों ने तो *पहले* ही बहुत कुछ *समझ* रखा है… ✨",
+            "style": {
+                "background": {
+                    "type": "gradient",
+                    "colors": [
+                        "#2c3e50",
+                        "#3498db"
+                    ]
+                },
+                "textColor": "#ecf0f1",
+                "highlightColor": "#f1c40f",
+                "font": "Hind",
+                "emojiSupport": true,
+                "highlightStyle": "bold-color"
+            },
+            "layout": {
+                "align": "center",
+                "padding": 26,
+                "borderRadius": 18,
+                "shadow": true,
+                "fontSize": {
+                    "mobile": 16,
+                    "tablet": 20,
+                    "desktop": 27
+                }
+            },
+            "animation": {
+                "entry": "zoom-in",
+                "hover": "scale"
+            },
+            "meta": {
+                "tags": [
+                    "attitude",
+                    "deep",
+                    "understanding"
+                ],
+                "author": "anonymous",
+                "date": "2026-03-23"
+            }
+        },
+        {
+            "id": "177",
+            "type": "love",
+            "language": "hindi",
+            "text": "जिसके *लफ़्ज़ों* में… हम अपना *अक्स* मिलता है… ✨\nबड़े *नसीबों* से… *ऐसा* कोई *शख्स* मिलता है… 🤍",
+            "style": {
+                "background": {
+                    "type": "gradient",
+                    "colors": [
+                        "#6a3093",
+                        "#a044ff"
+                    ]
+                },
+                "textColor": "#f8f0ff",
+                "highlightColor": "#ffd32a",
+                "font": "Poppins",
+                "emojiSupport": true,
+                "highlightStyle": "glow"
+            },
+            "layout": {
+                "align": "center",
+                "padding": 26,
+                "borderRadius": 20,
+                "shadow": true,
+                "fontSize": {
+                    "mobile": 15,
+                    "tablet": 19,
+                    "desktop": 26
+                }
+            },
+            "animation": {
+                "entry": "slide-up",
+                "hover": "scale"
+            },
+            "meta": {
+                "tags": [
+                    "love",
+                    "soulmate",
+                    "destiny"
+                ],
+                "author": "anonymous",
+                "date": "2026-03-23"
+            }
+        },
+        {
+            "id": "178",
+            "type": "attitude",
+            "language": "hindi",
+            "text": "*शेर* को कभी *बताना* नहीं पड़ता\nकि वो *शेर* है 🦁🔥\n*औकात* खुद *बोलती* है। 👑💯",
+            "style": {
+                "background": {
+                    "type": "gradient",
+                    "colors": [
+                        "#1a1a2e",
+                        "#16213e",
+                        "#0f3460"
+                    ]
+                },
+                "textColor": "#f5f0e1",
+                "highlightColor": "#ffd700",
+                "font": "Poppins",
+                "emojiSupport": true,
+                "highlightStyle": "bold-color"
+            },
+            "layout": {
+                "align": "center",
+                "padding": 28,
+                "borderRadius": 20,
+                "shadow": true,
+                "fontSize": {
+                    "mobile": 16,
+                    "tablet": 20,
+                    "desktop": 27
+                }
+            },
+            "animation": {
+                "entry": "zoom-in",
+                "hover": "scale"
+            },
+            "meta": {
+                "tags": [
+                    "attitude",
+                    "lion",
+                    "power"
+                ],
+                "author": "PrivMITLab",
+                "date": "2026-03-23"
+            }
+        },
+        {
+            "id": "179",
+            "type": "attitude",
+            "language": "hindi",
+            "text": "*तेवर* अपने ही *काफ़ी* हैं 😎🔥\n*किसी* के सहारे की\n*आदत* नहीं *रखते*। 💪👑",
+            "style": {
+                "background": {
+                    "type": "gradient",
+                    "colors": [
+                        "#434343",
+                        "#000000"
+                    ]
+                },
+                "textColor": "#ffffff",
+                "highlightColor": "#f39c12",
+                "font": "Montserrat",
+                "emojiSupport": true,
+                "highlightStyle": "glow"
+            },
+            "layout": {
+                "align": "center",
+                "padding": 26,
+                "borderRadius": 18,
+                "shadow": true,
+                "fontSize": {
+                    "mobile": 16,
+                    "tablet": 20,
+                    "desktop": 27
+                }
+            },
+            "animation": {
+                "entry": "slide-up",
+                "hover": "scale"
+            },
+            "meta": {
+                "tags": [
+                    "attitude",
+                    "self-respect",
+                    "independent"
+                ],
+                "author": "PrivMITLab",
+                "date": "2026-03-23"
+            }
+        }
     ]
 }
